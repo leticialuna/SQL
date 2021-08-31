@@ -1,0 +1,22 @@
+SQL (structured query language) is a standard language for storing, manipulating and retrieving data in databases.
+
+Statements:
+
+SELECT: statement is used to select data from a database.
+eg. Select * 
+    From table_name;
+    
+SELECT DISTINCT: statement is used to return only distinct (different) values.
+eg. Select distinct column_1
+    From table_name;
+    
+WHERE: it is used to filter record.
+eg. Select column_1
+    From table_name
+    Where some_condition;
+
+ORDER BY: it is used to sort the result by asc or desc order.
+eg. Select column_1
+    From table_name
+    Where some_condition
+    Order by column_1 asc or desc -> asc by default
