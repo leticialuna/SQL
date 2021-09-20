@@ -8,3 +8,4 @@ select concat('There are a total of ', count(occupation), ' ', lower(occupation)
 from occupations
 group by occupation
 order by count(occupation) asc, occupation asc;
+
